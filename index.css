@@ -1,0 +1,201 @@
+@import url(./reset.css);
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.header{
+    padding-top: 60px;
+    margin-bottom: 93px;
+    position: relative;
+}
+
+.header::after{
+    content: url("./images/Vector.png");
+    left: 0;
+}
+
+.header::before{
+    content: url("./images/Vector-2.png");
+    right: 0;
+}
+
+.header::after,
+.header::before{
+    position: absolute;
+    top: 0;
+}
+
+.main__title h2{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 104%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162C4E;
+    opacity: 0.39;
+}
+
+.main__description{
+    max-width: 423px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.main__description p,
+.check-description p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000CC;
+}
+
+.main__countdown{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown-time {
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-time,
+.contdown-colon{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: #162C4E;
+}
+
+.countdoun-text-background{
+    background: url(./images/countdown.png) center center no-repeat;
+    width: 132px;
+    height: 54px;
+    position: relative;
+}
+
+.countdown-text{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    z-index: 10000;
+}
+
+.check-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.check__button{
+    width: 240px;
+    height: 60px;
+    background: #1D4169;
+    border-radius: 40px;
+    padding: 16px 41px 17px 28px;
+    margin: 0 auto;
+    margin-bottom: 76px;
+    position: relative;
+    cursor: pointer;
+}
+
+.check__link{
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.check__link::before {
+    content: url("./images/arrow-right.png");
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.header,
+.main,
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background: #162C4E;
+    padding-top: 61px;
+    padding-bottom: 72px;
+}
+
+.footer__form{
+    position: relative;
+}
+
+.footer__input{
+    width: 440px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 1px solid #000000cc;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    padding: 16px 0px 16px 27px;
+    position: relative;
+}
+
+.footer__input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #00000099;
+}
+
+.input-btn{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 43px;
+    height: 43px;
+    background: #DF2224;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.input-btn::before {
+    content: url("./images/arrow-right.png");
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    z-index: 1000;
+}
