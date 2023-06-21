@@ -171,6 +171,10 @@ body{
     position: relative;
 }
 
+.footer__input._error{
+    box-shadow: 0 0 10px #ff0000;
+}
+
 .footer__input::placeholder{
     font-family: 'Roboto';
     font-style: normal;
